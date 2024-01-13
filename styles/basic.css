@@ -18,9 +18,6 @@
   font-family: '喜鹊万人造字体';
   src: url("https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E4%B8%87%E4%BA%BA%E9%80%A0%E5%AD%97%E4%BD%93.ttf");
 }
-article.full:active {
-  test: expression("_blank");
-}
 article.full a {
   color: #ffa280;
   transition: color ease 0.3s;
@@ -29,7 +26,10 @@ article.full a:hover {
   color: #ff4500;
   border-bottom: 1px dotted;
 }
-article.full hr {
+:active {
+  test: expression("_blank");
+}
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -37,7 +37,7 @@ article.full hr {
   margin: 40px 0;
   padding: 0;
 }
-article.full hr:after {
+hr:after {
   display: block;
   content: '';
   width: 7px;
@@ -51,19 +51,19 @@ article.full hr:after {
   border-radius: 100%;
   box-shadow: #f7f6f5 0 0 0 5px;
 }
-article.full ul,
-article.full ol,
-article.full dl,
-article.full table {
+ul,
+ol,
+dl,
+table {
   margin: 20px 0;
 }
-article.full ol ol,
-article.full ul ul,
-article.full ul ol,
-article.full ol ul {
+ol ol,
+ul ul,
+ul ol,
+ol ul {
   margin: 5px 0;
 }
-article.full dl dt {
+dl dt {
   clear: left;
   float: left;
   font-weight: bold;
@@ -74,11 +74,11 @@ article.full dl dt {
   white-space: nowrap;
   width: 180px;
 }
-article.full dl dd {
+dl dd {
   margin-left: 200px;
   margin-bottom: 12px;
 }
-article.full blockquote {
+blockquote {
   overflow: auto;
   border-left: #bd2f3b 3px solid;
   padding-left: 2em;
@@ -87,17 +87,17 @@ article.full blockquote {
   border-radius: 5px;
   margin-left: 0;
 }
-article.full img {
+img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
   max-width: 70%;
 }
-article.full code {
+code {
   font-family: "Fantasque Sans Mono";
 }
-article.full p code,
-article.full li code {
+p code,
+li code {
   background: #282828;
   border-radius: 2px;
   color: #ebdbb2;
@@ -107,10 +107,10 @@ article.full li code {
   padding-bottom: 3px;
   opacity: 0.8;
 }
-article.full li {
+li {
   text-align: left;
 }
-article.full .hljs {
+.hljs {
   line-height: 1.2em;
   border-radius: 10px;
   padding-left: 20px;
