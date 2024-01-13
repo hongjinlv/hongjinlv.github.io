@@ -364,6 +364,9 @@ main footer .intro {
   font-family: '喜鹊万人造字体';
   src: url("https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E4%B8%87%E4%BA%BA%E9%80%A0%E5%AD%97%E4%BD%93.ttf");
 }
+article.full:active {
+  test: expression("_blank");
+}
 article.full a {
   color: #ffa280;
   transition: color ease 0.3s;
@@ -372,10 +375,7 @@ article.full a:hover {
   color: #ff4500;
   border-bottom: 1px dotted;
 }
-:active {
-  test: expression("_blank");
-}
-hr {
+article.full hr {
   display: block;
   height: 1px;
   border: 0;
@@ -383,7 +383,7 @@ hr {
   margin: 40px 0;
   padding: 0;
 }
-hr:after {
+article.full hr:after {
   display: block;
   content: '';
   width: 7px;
@@ -397,19 +397,19 @@ hr:after {
   border-radius: 100%;
   box-shadow: #f7f6f5 0 0 0 5px;
 }
-ul,
-ol,
-dl,
-table {
+article.full ul,
+article.full ol,
+article.full dl,
+article.full table {
   margin: 20px 0;
 }
-ol ol,
-ul ul,
-ul ol,
-ol ul {
+article.full ol ol,
+article.full ul ul,
+article.full ul ol,
+article.full ol ul {
   margin: 5px 0;
 }
-dl dt {
+article.full dl dt {
   clear: left;
   float: left;
   font-weight: bold;
@@ -420,11 +420,11 @@ dl dt {
   white-space: nowrap;
   width: 180px;
 }
-dl dd {
+article.full dl dd {
   margin-left: 200px;
   margin-bottom: 12px;
 }
-blockquote {
+article.full blockquote {
   overflow: auto;
   border-left: #bd2f3b 3px solid;
   padding-left: 2em;
@@ -433,17 +433,17 @@ blockquote {
   border-radius: 5px;
   margin-left: 0;
 }
-img {
+article.full img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
   max-width: 70%;
 }
-code {
+article.full code {
   font-family: "Fantasque Sans Mono";
 }
-p code,
-li code {
+article.full p code,
+article.full li code {
   background: #282828;
   border-radius: 2px;
   color: #ebdbb2;
@@ -453,10 +453,10 @@ li code {
   padding-bottom: 3px;
   opacity: 0.8;
 }
-li {
+article.full li {
   text-align: left;
 }
-.hljs {
+article.full .hljs {
   line-height: 1.2em;
   border-radius: 10px;
   padding-left: 20px;
