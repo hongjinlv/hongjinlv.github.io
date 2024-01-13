@@ -177,6 +177,11 @@ header .space {
     transform: translate3d(-240px, -240px, 0);
   }
 }
+@font-face {
+  font-family: 'xnews-icon' /* project id 210347 */;
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot");
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.woff") format('woff'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.ttf") format('truetype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.svg#iconfont") format('svg');
+}
 main {
   background: #f7f6f5;
   flex: 2;
@@ -340,6 +345,11 @@ main footer .intro {
   }
 }
 @font-face {
+  font-family: 'xnews-icon' /* project id 210347 */;
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot");
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.woff") format('woff'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.ttf") format('truetype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.svg#iconfont") format('svg');
+}
+@font-face {
 /* font-properties */
   font-family: '喜鹊招牌体';
   src: url("https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E6%8B%9B%E7%89%8C%E4%BD%93(%E7%AE%80%20%E7%B9%81%E4%BD%93).ttf");
@@ -362,7 +372,10 @@ article.full a:hover {
   color: #ff4500;
   border-bottom: 1px dotted;
 }
-target "_blank" hr {
+:active {
+  test: expression("_blank");
+}
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -370,7 +383,7 @@ target "_blank" hr {
   margin: 40px 0;
   padding: 0;
 }
-target "_blank" hr:after {
+hr:after {
   display: block;
   content: '';
   width: 7px;
@@ -384,19 +397,19 @@ target "_blank" hr:after {
   border-radius: 100%;
   box-shadow: #f7f6f5 0 0 0 5px;
 }
-target "_blank" ul,
-target "_blank" ol,
-target "_blank" dl,
-target "_blank" table {
+ul,
+ol,
+dl,
+table {
   margin: 20px 0;
 }
-target "_blank" ol ol,
-target "_blank" ul ul,
-target "_blank" ul ol,
-target "_blank" ol ul {
+ol ol,
+ul ul,
+ul ol,
+ol ul {
   margin: 5px 0;
 }
-target "_blank" dl dt {
+dl dt {
   clear: left;
   float: left;
   font-weight: bold;
@@ -407,11 +420,11 @@ target "_blank" dl dt {
   white-space: nowrap;
   width: 180px;
 }
-target "_blank" dl dd {
+dl dd {
   margin-left: 200px;
   margin-bottom: 12px;
 }
-target "_blank" blockquote {
+blockquote {
   overflow: auto;
   border-left: #bd2f3b 3px solid;
   padding-left: 2em;
@@ -420,17 +433,17 @@ target "_blank" blockquote {
   border-radius: 5px;
   margin-left: 0;
 }
-target "_blank" img {
+img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
   max-width: 70%;
 }
-target "_blank" code {
+code {
   font-family: "Fantasque Sans Mono";
 }
-target "_blank" p code,
-target "_blank" li code {
+p code,
+li code {
   background: #282828;
   border-radius: 2px;
   color: #ebdbb2;
@@ -440,10 +453,10 @@ target "_blank" li code {
   padding-bottom: 3px;
   opacity: 0.8;
 }
-target "_blank" li {
+li {
   text-align: left;
 }
-target "_blank" .hljs {
+.hljs {
   line-height: 1.2em;
   border-radius: 10px;
   padding-left: 20px;

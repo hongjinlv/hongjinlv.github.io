@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'xnews-icon' /* project id 210347 */;
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot");
+  src: url("//at.alicdn.com/t/font_1g2ko97p796yldi.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.woff") format('woff'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.ttf") format('truetype'), url("//at.alicdn.com/t/font_1g2ko97p796yldi.svg#iconfont") format('svg');
+}
+@font-face {
+/* font-properties */
+  font-family: '喜鹊招牌体';
+  src: url("https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E6%8B%9B%E7%89%8C%E4%BD%93(%E7%AE%80%20%E7%B9%81%E4%BD%93).ttf");
+}
+@font-face {
+/* font-properties */
+  font-family: '喜鹊聚珍体';
+  src: url("https://dm.nbut.ac.cn/xcoder/喜鹊聚珍体.ttf");
+}
+@font-face {
+/* font-properties */
+  font-family: '喜鹊万人造字体';
+  src: url("https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E4%B8%87%E4%BA%BA%E9%80%A0%E5%AD%97%E4%BD%93.ttf");
+}
+article.full a {
+  color: #ffa280;
+  transition: color ease 0.3s;
+}
+article.full a:hover {
+  color: #ff4500;
+  border-bottom: 1px dotted;
+}
+:active {
+  test: expression("_blank");
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: #d6d1cc 1px solid;
+  margin: 40px 0;
+  padding: 0;
+}
+hr:after {
+  display: block;
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: #ddd8d4 1px solid;
+  position: relative;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  background: #d6d1cc;
+  border-radius: 100%;
+  box-shadow: #f7f6f5 0 0 0 5px;
+}
+ul,
+ol,
+dl,
+table {
+  margin: 20px 0;
+}
+ol ol,
+ul ul,
+ul ol,
+ol ul {
+  margin: 5px 0;
+}
+dl dt {
+  clear: left;
+  float: left;
+  font-weight: bold;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 180px;
+}
+dl dd {
+  margin-left: 200px;
+  margin-bottom: 12px;
+}
+blockquote {
+  overflow: auto;
+  border-left: #bd2f3b 3px solid;
+  padding-left: 2em;
+  padding-right: 2em;
+  background: #f0efed;
+  border-radius: 5px;
+  margin-left: 0;
+}
+img {
+  border-radius: 3px;
+  height: auto;
+  margin-top: 20px;
+  max-width: 70%;
+}
+code {
+  font-family: "Fantasque Sans Mono";
+}
+p code,
+li code {
+  background: #282828;
+  border-radius: 2px;
+  color: #ebdbb2;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  opacity: 0.8;
+}
+li {
+  text-align: left;
+}
+.hljs {
+  line-height: 1.2em;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
