@@ -3,17 +3,38 @@
     src:url('https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/yunhan.ttf'); /* 修改成你的字体 */
     font-display:swap
 }
-h1#site-title {
-    font-family:arzhu
-    color:rgb(255,215,0)
-    font-size:1.2em
+@font-face {
+  /* font-properties */
+  font-family: '喜鹊招牌体';
+  src: url('https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E6%8B%9B%E7%89%8C%E4%BD%93(%E7%AE%80%20%E7%B9%81%E4%BD%93).ttf');
+}
 
+@font-face {
+  /* font-properties */
+  font-family: '喜鹊聚珍体';
+  src: url('https://dm.nbut.ac.cn/xcoder/喜鹊聚珍体.ttf');
+}
+
+@font-face {
+  /* font-properties */
+  font-family: '喜鹊万人造字体';
+  src: url('https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E4%B8%87%E4%BA%BA%E9%80%A0%E5%AD%97%E4%BD%93.ttf');
+}
+
+h1#site-title {
+    font-family:'喜鹊招牌体';
+    color:#FFD700;
+    font-size:1.2em;
 }
 span#subtitle {
-    font-family:arzhu
-    color:rgb(255,215,0)
-    font-size:1.2em
+    font-family:'喜鹊招牌体';
+    color:#FFD700;
+    font-size:1.2em;
 }
-a#site-name {
-    font-family:arzhu!important
+
+span.site-name {
+    font-family:'喜鹊招牌体';
+    font-size:1.2em;
+    color:#FFD700;
+    font-weight: normal;
 }
