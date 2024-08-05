@@ -21,20 +21,29 @@
   src: url('https://dm.nbut.ac.cn/xcoder/%E5%96%9C%E9%B9%8A%E4%B8%87%E4%BA%BA%E9%80%A0%E5%AD%97%E4%BD%93.ttf');
 }
 
-h1#site-title {
+div#site-info h1#site-title {
     font-family:'喜鹊招牌体';
+    font-size:2.3em;
     color:#FFD700;
-    font-size:1.2em;
 }
+
 span#subtitle {
     font-family:'喜鹊招牌体';
     color:#FFD700;
     font-size:1.2em;
 }
-
-span.site-name {
-    font-family:'喜鹊招牌体';
-    font-size:1.2em;
-    color:#FFD700;
-    font-weight: normal;
+span{
+    font-family:'喜鹊聚珍体';
 }
+
+div.author-info__name{
+     font-family:'喜鹊聚珍体';
+     color:#FFD700;
+}
+span.site-name {
+    font-family:'喜鹊聚珍体';
+    font-size:1.7em;
+    color:#FFD700;
+    font-weight:1;
+}
+

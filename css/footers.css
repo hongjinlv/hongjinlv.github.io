@@ -13,17 +13,14 @@
     color: #ff4d00;
 }
 p, li, blockquote{
-      font-family: '喜鹊聚珍体', $cu-font-family;
+      font-family: '喜鹊聚珍体';
 }
 strong{
-      font-family: '喜鹊聚珍体', $cu-font-family !important;
-     
+      font-family: '喜鹊聚珍体'; 
 }
 h1, h2, h3, h4, h5, h6{
-      font-family: '喜鹊招牌体', $cu-font-family;
+      font-family: '喜鹊招牌体';
       font-weight: normal;
-     
-
 }
 #article-container{
     font-family: '喜鹊聚珍体';
