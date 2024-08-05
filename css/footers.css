@@ -1,0 +1,14 @@
+#footer {
+    color: #FFD700;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+#footer-wrap {
+    padding: 20px 20px;
+    /* color: var(--light-grey); */
+    color: #FFD700;
+}
+#footer-wrap a{
+    color: #ff4d00;
+}
