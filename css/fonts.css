@@ -49,4 +49,7 @@ div#page-site-info h1#site-title{
     color:#FFD700;
     font-size:70px;
 }
+div.content a{
+    font-size: 20px;
+}
 
