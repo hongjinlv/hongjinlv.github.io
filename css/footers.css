@@ -14,7 +14,7 @@
 }
 p, li, blockquote{
       font-family: '喜鹊聚珍体';
-      font-size: 1.4em;
+      font-size: 1em;
 }
 strong{
       font-family: '喜鹊聚珍体'; 
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
 #article-container{
     font-family: '喜鹊聚珍体';
     color:	#1C1C1C;
-    font-size: 1.4em;
+    font-size: 1em;
 
 }
 a{
