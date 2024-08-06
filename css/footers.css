@@ -30,9 +30,9 @@ span{
     font-size: 17px;
 }
 div.copyright{
-    font-size: 20px;
+    font-size: 17px;
 }
-div.content a{
+div.content a.title{
     font-size: 20px;
 }
 
