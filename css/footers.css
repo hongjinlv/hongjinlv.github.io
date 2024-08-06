@@ -12,7 +12,7 @@
 #footer-wrap a{
     color: #ff4d00;
 }
-p, li, blockquote{
+p, li, blockquote,{
       font-size: 20px;
 }
 h1, h2, h3, h4, h5, h6{
@@ -24,6 +24,9 @@ article#article-container{
 }
 a{
     color: #FFD700; 
+    font-size: 17px;
+}
+span{
     font-size: 17px;
 }
 
