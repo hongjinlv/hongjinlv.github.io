@@ -33,12 +33,13 @@ span{
 div.copyright{
     font-size: 17px;
 }
-/* 滚动条 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background-color: #ff4d00;
+#web_bg {
+  /* 背景图像的地址（url括号里）  */
+  background: url( https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/img/1.jpg);
+  /* 背景图像不重复 */
+  background-repeat: no-repeat;
+  /* 背景图像大小 */
+  background-size: contain;
 }
-
 
 
