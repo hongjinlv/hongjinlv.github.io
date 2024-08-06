@@ -23,7 +23,7 @@
 
 div#site-info h1#site-title {
     font-family:'喜鹊招牌体';
-    font-size:2.3em;
+    font-size:4.3em;
     color:#FFD700;
 }
 
@@ -42,13 +42,13 @@ div.author-info__name{
 }
 span.site-name {
     font-family:'喜鹊聚珍体';
-    font-size:1.7em;
+    font-size:4em;
     color:#FFD700;
     font-weight:1;
 }
 div#page-site-info h1#site-title{
     font-family:'喜鹊招牌体';
     color:#FFD700;
-    font-size:4em;
+    font-size:7em;
 }
 
