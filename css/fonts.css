@@ -30,7 +30,7 @@ div#site-info h1#site-title {
 span#subtitle {
     font-family:'喜鹊招牌体';
     color:#FFD700;
-    font-size: 30px;
+    font-size: 40px;
 }
 span{
     font-family:'喜鹊聚珍体';
@@ -42,7 +42,7 @@ div.author-info__name{
 }
 span.site-name {
     font-family:'喜鹊聚珍体';
-    font-size: 24px;
+    font-size: 40px;
     color:#FFD700;
     font-weight:1;
 }
