@@ -23,14 +23,14 @@
 
 div#site-info h1#site-title {
     font-family:'喜鹊招牌体';
-    font-size:4.3em;
+    font-size:7em;
     color:#FFD700;
 }
 
 span#subtitle {
     font-family:'喜鹊招牌体';
     color:#FFD700;
-    font-size:1.2em;
+    font-size:5em;
 }
 span{
     font-family:'喜鹊聚珍体';
@@ -49,6 +49,6 @@ span.site-name {
 div#page-site-info h1#site-title{
     font-family:'喜鹊招牌体';
     color:#FFD700;
-    font-size:4em;
+    font-size:7em;
 }
 
