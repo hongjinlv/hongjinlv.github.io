@@ -46,4 +46,9 @@ span.site-name {
     color:#FFD700;
     font-weight:1;
 }
+div#page-site-info h1#site-title{
+    font-family:'喜鹊招牌体';
+    color:#FFD700;
+    font-size:4em;
+}
 
