@@ -58,7 +58,7 @@ div.content{
   /* 背景图像大小 */
   background-size: cover;
 }
-td#chuizhi{
+#chuizhi{
     Writing-mode:tb-rl;
     Text-align:left;
 }
