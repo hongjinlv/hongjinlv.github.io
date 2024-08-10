@@ -5,7 +5,6 @@
     backdrop-filter: saturate(100%) blur(5px)
 }
 #footer-wrap {
-    padding: 20px 20px;
     /* color: var(--light-grey); */
     color: #FFD700;
 }
