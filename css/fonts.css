@@ -22,30 +22,30 @@
 }
 
 div#site-info h1#site-title {
-    /*font-family:'喜鹊招牌体';*/
+    font-family:'喜鹊招牌体';
     font-size:40px;
     color:#FFD700;
 }
 
 span#subtitle {
-   /* font-family:'喜鹊招牌体';*/
+    font-family:'喜鹊招牌体';
     color:#FFD700;
     font-size: 40px;
 }
 
 
 div.author-info__name{
-     /*font-family:'喜鹊聚珍体';*/
+     font-family:'喜鹊聚珍体';
      color:#FFD700;
 }
 span.site-name {
-    /*font-family:'喜鹊聚珍体';*/
+    font-family:'喜鹊聚珍体';
     font-size: 40px;
     color:#FFD700;
     font-weight:1;
 }
 div#page-site-info h1#site-title{
-    /*font-family:'喜鹊招牌体';*/
+    font-family:'喜鹊招牌体';
     color:#FFD700;
     font-size:70px;
 }
