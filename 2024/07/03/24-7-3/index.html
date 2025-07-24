@@ -165,12 +165,12 @@
        return true
     }else{
       //若为第一次加载
-     sessionStorage.setItem("isReload", true)
-     document.body.insertAdjacentHTML('beforeend',`<div id="SAO-Welcome" style="position: fixed;display: block;background: transparent;top: calc(50% - 250px);z-index: 1000;left: 0;right: 0;margin: auto auto;font-family: 'SAOUI';font-size: 8vw;width: fit-content;height: fit-content;color: rgba(201, 202, 203,0.7);text-decoration: underline 2vw rgba(201, 202, 203,0.7);">玄熠，内控、合规、适中。 !</div>`)
-     SAONotify('Welcome','欢迎光临玄熠(秋叶半金)的博客<br>愿你享受愉快的一天')
-     setTimeout(function(){
-       document.getElementById("SAO-Welcome").remove();
-     },3000)
+     //- sessionStorage.setItem("isReload", true)
+     //- document.body.insertAdjacentHTML('beforeend',`<div id="SAO-Welcome" style="position: fixed;display: block;background: transparent;top: calc(50% - 250px);z-index: 1000;left: 0;right: 0;margin: auto auto;font-family: 'SAOUI';font-size: 8vw;width: fit-content;height: fit-content;color: rgba(201, 202, 203,0.7);text-decoration: underline 2vw rgba(201, 202, 203,0.7);">玄熠，内控、合规、适中。 !</div>`)
+     //- SAONotify('Welcome','欢迎光临玄熠(秋叶半金)的博客<br>愿你享受愉快的一天')
+     //- setTimeout(function(){
+     //-   document.getElementById("SAO-Welcome").remove();
+     //- },3000)
     }
 
   },
