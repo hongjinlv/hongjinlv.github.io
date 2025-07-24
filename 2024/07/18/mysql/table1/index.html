@@ -153,40 +153,29 @@
         }
       }
       detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/fonts.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/footers.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/akilar-candyassets/image/js/SAO-Notify.js" async></script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="SAO-scene"><div class="SAO-wrap"><div class="SAO-wall SAO-wall-right"></div><div class="SAO-wall SAO-wall-left"></div><div class="SAO-wall SAO-wall-top"></div><div class="SAO-wall SAO-wall-bottom"></div><div class="SAO-wall SAO-wall-back"></div></div><div class="SAO-wrap"><div class="SAO-wall SAO-wall-right"></div><div class="SAO-wall SAO-wall-left"></div><div class="SAO-wall SAO-wall-top"></div><div class="SAO-wall SAO-wall-bottom"></div><div class="SAO-wall SAO-wall-back"></div></div></div></div><div class="pjax-reload"><script async="async">var preloader = {
-  endLoading: () => {
-    document.body.style.overflow = 'auto';      
-    document.getElementById('loading-box').style.transition = 'opacity 3s';
-    document.getElementById('loading-box').style.opacity = '0';
-    setTimeout(function(){
-      document.getElementById('loading-box').classList.add("loaded")
-    },3000)
-
-    //用于判断是否第一次加载
-    if(sessionStorage.getItem("isReload")){
-       //若显示已经加载过
-       return true
-    }else{
-      //若为第一次加载
-     //- sessionStorage.setItem("isReload", true)
-     //- document.body.insertAdjacentHTML('beforeend',`<div id="SAO-Welcome" style="position: fixed;display: block;background: transparent;top: calc(50% - 250px);z-index: 1000;left: 0;right: 0;margin: auto auto;font-family: 'SAOUI';font-size: 8vw;width: fit-content;height: fit-content;color: rgba(201, 202, 203,0.7);text-decoration: underline 2vw rgba(201, 202, 203,0.7);">玄熠，内控、合规、适中。 !</div>`)
-     //- SAONotify('Welcome','欢迎光临玄熠(秋叶半金)的博客<br>愿你享受愉快的一天')
-     //- setTimeout(function(){
-     //-   document.getElementById("SAO-Welcome").remove();
-     //- },3000)
+    })(window)</script><link rel="stylesheet" href="/css/fonts.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/footers.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/akilar-candyassets/image/js/SAO-Notify.js" async></script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="SAO-scene"><div class="SAO-wrap"><div class="SAO-wall SAO-wall-right"></div><div class="SAO-wall SAO-wall-left"></div><div class="SAO-wall SAO-wall-top"></div><div class="SAO-wall SAO-wall-bottom"></div><div class="SAO-wall SAO-wall-back"></div></div><div class="SAO-wrap"><div class="SAO-wall SAO-wall-right"></div><div class="SAO-wall SAO-wall-left"></div><div class="SAO-wall SAO-wall-top"></div><div class="SAO-wall SAO-wall-bottom"></div><div class="SAO-wall SAO-wall-back"></div></div></div></div><script>(async ()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
     }
-
-  },
-  initLoading: () => {
-    document.body.style.overflow = '';
-    document.getElementById('loading-box').style.transition = '';
-    document.getElementById('loading-box').style.opacity = '1';
-    document.getElementById('loading-box').classList.remove("loaded")
-
   }
-}
-window.addEventListener('load',()=> {preloader.endLoading()})
-setTimeout(function(){preloader.endLoading();}, 3000);</script></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/img/luo.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">475</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/img/xing.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="秋叶半金"><span class="site-name">秋叶半金</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">类型</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-07-18T08:22:08.000Z" title="发表于 2024-07-18 16:22:08">2024-07-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-07-14T06:22:25.884Z" title="更新于 2025-07-14 14:22:25">2025-07-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/mysql/">mysql</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="类型"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>&emsp;&emsp;Varchar与char区别：</p>
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/img/luo.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">475</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/hongjinlv/ziyuan/img/xing.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="秋叶半金"><span class="site-name">秋叶半金</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">类型</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-07-18T08:22:08.000Z" title="发表于 2024-07-18 16:22:08">2024-07-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-07-14T06:22:25.884Z" title="更新于 2025-07-14 14:22:25">2025-07-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/mysql/">mysql</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="类型"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>&emsp;&emsp;Varchar与char区别：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Varchar 是可变长，需要字节存储长度，不大于255，需要1字节，特殊的如果表格使用ROW_FORMAT=FIXED，则变为固定长度。一般不能直接设定最大值，虽然在mysql中看是变长，但是对于内存来说是直接开辟全部长度，以避免放不下情况，会浪费资源，同时Varchar在更新时，也会出现页内存储不够的情况，MylSAM会将行拆成不同的片段存储，InnoDB则需要分裂页来使行可以放进页内，允许最大长度为65535个字节，同时列共享（相加）。</span><br><span class="line">char 是固定长度，不够部分用空格补充，允许最大长度为255个字符，</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;AUTO_INCREMENT 自增，所修饰字段具备如下特性：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1、字段不能为null，即设定NOT NULL;</span><br><span class="line">2、字段必须有唯一索引，即不允许有重复值，UNIQUE标识为唯一索引，不允许重复，但是可以为空，主键索引，通过设置主键自动创建，其不允许重复同时不允许为空，所以一般该字段设定为主键或者是唯一不为空字段;</span><br><span class="line">3、字段类型必须为整型;</span><br><span class="line">4、字段达到最大值时，失效；</span><br></pre></td></tr></table></figure>
